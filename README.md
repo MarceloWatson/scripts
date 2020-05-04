@@ -1,21 +1,9 @@
 # scripts
 
-I created this simple script to be able to collect information about a BGP session in Mikrotik and display it in Zabbix and Grafana, as I did not find in the Mirkotik documentation, a MIB that offers access to this information.
+Here you will find some scripts that I created to solve problems that I came across in my day to day work.
 
-You can collect any field in the session by entering the field name, as it appears in a query via terminal at Mikroitk. Example of valid fields:
+I sincerely hope that one of them will help you in your day to day.
 
-name
-instance
-remote-address
-remote-as
-tcp-md5-key
-nexthop-choice
-and etc
+I will try to keep the list updated with a brief description of the script's function.
 
-note: for the status of the BGP session the values returned are "
-0 - donw
-1 - up
-
-I sincerely hope that this small and first contribution to the community will help someone.
-
-Abs and good luck!
+mk-bgpsess.php - captures information from BGP sessions at Mikrotik
