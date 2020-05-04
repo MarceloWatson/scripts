@@ -19,7 +19,7 @@
 # arg.4 = field that wants to capture the value
 #
 # Uncomment this line and change the path to your private key location
-# $pathkey = "/home/<user>/.ssh/id_rsa"
+# $pathkey = "/home/<user>/.ssh/id_rsa";
 #
 $tvalues = array();
 $cmd = "ssh -i ".$pathkey." ".$argv[1]."@".$argv[2]."  \"/routing bgp peer print status where name=\"".$argv[3]."\"\"";
